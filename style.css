@@ -1,1 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Meow+Script&family=Tangerine&family=UnifrakturMaguntia&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-red: rgb(177, 99, 99);
+    --lavendar: rgb(212, 213, 247);
+}
+
+/* Header Section */
+header {
+    color: aliceblue;
+    background-color: var(--light-red);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    padding-bottom: 5px;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 45px;
+}
+
+header p {
+    font-family: "Tangerine", cursive;
+    font-size: 35px;
+}
+
+/* Main Section */
+button {
+    display: Block;
+    margin: 20px auto;
+    font-family: "Meow Script", cursive;
+    font-size: 35px;
+    padding: 10px;
+    background-color: var(--lavendar);
+    color: brown;
+    border: 2px solid var(--light-red);
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(217, 205, 253);
+    transform: scale(1.1);
+}
+
+article {
+    margin: 0 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+#place {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Aladin", system-ui;
+    font-size: 40px;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    color: aliceblue;
+    background-color: var(--light-red);
+}
